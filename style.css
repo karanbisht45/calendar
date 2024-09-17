@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#1d0000,#20205b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar{
+    width: 250px;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.left , .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.right{
+    background-color: rgb(12, 249, 241);
+}
+
+#date{
+    font-size: 80px;
+    line-height: 70px;
+}
+
+#month{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+#year{
+    font-size: 25px;
+}
+
